@@ -1,0 +1,14 @@
+aboutMe = {
+  "name":"Shobana Govindan",
+  "DOB":"29.09.1984",
+  "email address":"sshobanag@mail.com",
+  "Town":"Romford",
+  "Previous Job": ["Open Reply", "Ignite Technology"],
+  "Technology" :[
+  	{"name":"Javascript", "experience":"8 years"},
+  	{"name":"HTML", "experience":"8 years"},
+  	{"name":"LESS/SCSS", "experience":"5 years"},
+  	{"name":"Grunt", "experience":"5 years"},
+  	{"name":"OO JS", "experience":"3 years"}
+  ]
+ }
