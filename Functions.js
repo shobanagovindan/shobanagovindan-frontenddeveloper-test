@@ -7,7 +7,7 @@ function Question1(inputArray) {
 	var arrLength = inputArray.length;
    	var b = new Array();
       
-  	for(i=0; i<arrLength; i++) {
+  	for(i=0; i<(arrLength*2); i++) {
     	b.push(inputArray[i%arrLength]);
     }
     return b;
