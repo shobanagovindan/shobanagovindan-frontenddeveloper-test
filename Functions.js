@@ -52,6 +52,11 @@ function Question5(inputString) {
 	// You should write a function that reverses the order of the words in a string. The letters in
 	// the words should be unchanged.
 	// e.g. "the cat sat on the mat" should become "mat the on sat cat the"
+	var result = "";
+    var wordArray = inputString.split(" ");
+    for(var i = wordArray.length - 1; i >= 0; i--) {
+        result += wordArray[i] + " ";
+    }
+    return result.trim();
 	
-	return undefined;
 }
